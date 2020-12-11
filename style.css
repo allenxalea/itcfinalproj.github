@@ -1,0 +1,112 @@
+body {
+	background:url(bg.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0
+}
+#body2 {
+	background:tomato;
+	margin:0
+}
+#body3 {
+	background:tomato;
+	margin:0
+}
+#head1 {
+	padding-top:20px;
+	font-size:50px;
+	font-family:"Lucida Console", "Courier New", monospace;
+}
+#head2 {
+	padding-top:20px;
+	font-size:50px;
+	font-family:"Lucida Console", "Courier New", monospace;
+}
+#head3 {
+	padding-top:90px;
+	font-size:60px;
+	font-family:"Lucida Console", "Courier New", monospace;
+}
+.q {
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+}
+#w {
+	padding-top:40px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.e {
+	padding-top:70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	font-size:30px
+}
+#r {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.content {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-style:italic;
+}
+#logo:hover {
+	opacity:1.0;
+	transform:rotate(360deg);
+	height:300px;
+	width:300px
+}
+#logo {
+	transition-property:height width;
+	transition-delay:0s;
+	transition-duration:.3s;
+	transition-timing-function:ease;
+	opacity:0.5
+}
+#logo2:hover {
+	opacity:1.0;
+	transform:scale(1.5);
+}
+#logo2 {
+	transition-delay:0s;
+	transition-duration:.3s;
+	transition-timing-function:ease;
+	opacity:0.5
+}
+#rc {
+	padding-top:160px
+}
+#rc2 {
+	padding-top:115px
+}
+#nd {
+	padding-top:50px
+}
+#nd2 {
+	padding-top:110px
+}
+#header {
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	position:fixed;
+	height:80px;
+}
+#header li {
+	display:inline
+}
+a:link {
+	text-decoration:none;
+	color:black
+}
+a:visited {
+	color:black
+}
+a:hover {
+	color:gold
+}
+a:active {
+	color:gold
+}
